@@ -1,0 +1,103 @@
+.container {
+    background-color: rgb(73, 91, 97);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Comic Sans MS";
+}
+
+.postcard {
+    width: 700px;
+    height: auto; /* Responsive purpose */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  /*  background-color: lightcoral; */
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: ;
+}
+
+.second-row {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+ 
+}
+.second-row-left {
+    flex-basis: 50%;
+   /* background-color: lightgreen; */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.second-row-right {
+    flex-basis: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+
+}
+.third-row {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.summer {
+    width: 100px;
+    height: 56px;
+
+}
+
+.input1 {
+    width: 300px;
+    padding-top: 10px;
+    margin-top: 15px; 
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid;
+    color: lightgray;
+    background-image: url("https://icon-library.net/images/reindeer-icon/reindeer-icon-11.jpg");
+    background-size: 10px 10px;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+.input2 {
+    width: 300px;
+    padding-top: 10px;
+    margin-top: 15px; 
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid;
+    color: lightgray;
+}
+.send-button {
+  background-color: #ced3ce;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 32px;
+  text-decoration: none;
+  margin: 4px 2px 40px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: "Comic Sans MS";
+  font-size: 15px;
+}
+
